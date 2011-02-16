@@ -1,0 +1,15 @@
+The PiryxDeveloperProblem is an application that loads previous donations and,
+using a command line loop to read "new" donations, executes logic to determine
+if previous donators should be notified of the new donation message.
+
+With the default configuration, the application loads previous donations from the
+/resources/donors.csv file, however this loading file is configurable via the
+/resources/application.properties file (key fileForFileDonorLoader)
+
+Simplest steps to run the application are as follows:
+
+1)  Compile files using java 1.6 or above in src directory
+2)  Run the program with: "java PiryxDeveloperProblem"
+3)  Type in new donations to the command prompt (/resources/testcases.txt has some examples)
+4)  Read output to see notification behavior
+5)  Type 'quit' to exit from run loop
