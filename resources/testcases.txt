@@ -1,0 +1,27 @@
+1-3
+
+# match zip code
+John,San Francisco,California,94123,415-533-6439,j1@gmail.com,100,Amex,GreenLaces,CampaignX,auth,Should be sent
+
+# match city
+John,San Francisco,California,94111,415-533-6439,j2@gmail.com,100,Amex,CauseX,CampaignX,auth,Should be sent
+
+# match campaign and zip
+John,San Francisco,California,94123,415-533-6439,j@gmail.com,100,Amex,CauseX,Spring,auth,Should be sent
+
+4-7
+# match zip code
+John,San Francisco,California,94123,415-533-6439,j@gmail.com,100,Amex,CauseX,CampaignX,auth,Shouldnt be sent
+
+# match city
+John,San Francisco,California,94111,415-533-6439,j@gmail.com,100,Amex,CauseX,CampaignX,auth,Shouldnt be sent
+
+# match campaign and zip
+John,San Francisco,California,94123,415-533-6439,j@gmail.com,100,Amex,CauseX,Spring,auth,Should be sent
+
+8+
+# match campaign and zip
+John,San Francisco,California,94123,415-533-6439,j@gmail.com,100,Amex,CauseX,Spring,auth,Shouldnt be sent
+
+
+
