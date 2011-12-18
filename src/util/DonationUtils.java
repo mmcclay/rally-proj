@@ -50,6 +50,7 @@ public class DonationUtils {
      * @param donorFinder
      */
     public void handleNewDonation(Donation newDonation, DonorFinder donorFinder) {
+        // test
         DonationUtils donationUtils = DonationUtils.getInstance();
 
         Set<String> donorEmailSet = donorFinder.getDonorEmailSet();
